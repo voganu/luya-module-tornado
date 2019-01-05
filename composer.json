@@ -23,12 +23,12 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"luya\\tornado\\" : "src/"
+			"voganu\\tornado\\" : "src/"
 		}
 	},
 	"autoload-dev" : {
        "psr-4" : {
-       		"luya\\tornado\\tests\\" : "tests/",
+       		"voganu\\tornado\\tests\\" : "tests/",
            "tornadotests\\" : "tests/"
        }
     }
