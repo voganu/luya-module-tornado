@@ -1,6 +1,6 @@
 <?php
 
-namespace luya\tornado\admin;
+namespace voganu\tornado\admin;
 
 use luya\admin\components\AdminMenuBuilder;
 
@@ -12,8 +12,8 @@ use luya\admin\components\AdminMenuBuilder;
 final class Module extends \luya\admin\base\Module
 {
     public $apis = [
-        'api-tornado-postav' => 'luya\tornado\admin\apis\PostavController',
-        'api-news-cat' => 'luya\news\admin\apis\CatController',
+        'api-tornado-postav' => 'voganu\tornado\admin\apis\PostavController',
+        'api-tornado\status' => 'voganu\tornado\admin\apis\StatusController',
     ];
 
     /**

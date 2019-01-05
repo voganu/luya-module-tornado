@@ -1,6 +1,6 @@
 <?php
 
-namespace luya\tornado\admin\controllers;
+namespace voganu\tornado\admin\controllers;
 
 class PostavController extends \luya\admin\ngrest\base\Controller
 {

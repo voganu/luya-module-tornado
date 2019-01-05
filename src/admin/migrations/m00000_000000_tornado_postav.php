@@ -2,7 +2,7 @@
 
 use yii\db\Migration;
 
-class m00000_000000_tornado_postav extends Migration
+class m00001_000001_tornado_postav extends Migration
 {
     public function safeUp()
     {

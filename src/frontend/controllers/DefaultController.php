@@ -1,6 +1,6 @@
 <?php
 
-namespace luya\tornado\frontend\controllers;
+namespace voganu\tornado\frontend\controllers;
 
 use Yii;
 use luya\tornado\models\Postav;
@@ -31,7 +31,7 @@ class DefaultController extends \luya\web\Controller
     public function actionIndex()
     {
         $provider = new ActiveDataProvider([
-            'query' => Article::find()->andWhere(['is_deleted' => false]),
+            'query' => Postav::find()->andWhere(['is_deleted' => false]),
             'sort' => [
                 'defaultOrder' => $this->module->articleDefaultOrder,
             ],

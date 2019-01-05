@@ -1,6 +1,6 @@
 <?php
 
-namespace luya\tornado\frontend;
+namespace voganu\tornado\frontend;
 
 /**
  * News Frontend Module.
