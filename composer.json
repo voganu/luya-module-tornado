@@ -1,32 +1,32 @@
 {
-	"name" : "luyadev/luya-module-news",
-	"description" : "The news module will provided you a basic news system with categories and tags.",
+	"name" : "voganu/luya-module-tornado",
+	"description" : "The tornado module ",
 	"type" : "luya-module",
 	"keywords" : ["php", "luya", "module", "news", "yii2", "yii", "luya-module"],
 	"license": "MIT",
 	"homepage" : "http://luya.io",
 	"authors" : [
 		{
-			"name" : "Basil",
-			"email" : "git@nadar.io",
-			"homepage" : "https://github.com/nadar"
+			"name" : "vogan",
+			"email" : "vogan@ukr.net",
+			"homepage" : "https://github.com/voganu"
 		}
 	],
 	"support" : {
-		"issues" : "https://github.com/luyadev/luya/issues"
+		"issues" : "https://github.com/voganu/luya-module-tornado/issues"
 	},
 	"require-dev" : {
 		"luyadev/luya-testsuite" : "~1.0.0"
 	},
 	"autoload" : {
 		"psr-4" : {
-			"luya\\news\\" : "src/"
+			"luya\\tornado\\" : "src/"
 		}
 	},
 	"autoload-dev" : {
        "psr-4" : {
-       		"luya\\news\\tests\\" : "tests/",
-           "newstests\\" : "tests/"
+       		"luya\\tornado\\tests\\" : "tests/",
+           "tornadotests\\" : "tests/"
        }
     },
 	"extra": {
